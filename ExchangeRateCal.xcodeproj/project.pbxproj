@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		0432C3D929477D56002CA85A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432C3D829477D56002CA85A /* AppDelegate.swift */; };
 		0432C3DB29477D56002CA85A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432C3DA29477D56002CA85A /* SceneDelegate.swift */; };
-		0432C3DD29477D56002CA85A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432C3DC29477D56002CA85A /* ViewController.swift */; };
 		0432C3E029477D56002CA85A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432C3DE29477D56002CA85A /* Main.storyboard */; };
 		0432C3E229477D57002CA85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0432C3E129477D57002CA85A /* Assets.xcassets */; };
 		0432C3E529477D57002CA85A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0432C3E329477D57002CA85A /* LaunchScreen.storyboard */; };
 		0432C3F029477D57002CA85A /* ExchangeRateCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432C3EF29477D57002CA85A /* ExchangeRateCalTests.swift */; };
 		0432C3FA29477D57002CA85A /* ExchangeRateCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432C3F929477D57002CA85A /* ExchangeRateCalUITests.swift */; };
 		0432C3FC29477D57002CA85A /* ExchangeRateCalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0432C3FB29477D57002CA85A /* ExchangeRateCalUITestsLaunchTests.swift */; };
+		0477D01329478882009C960B /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477D01229478882009C960B /* PickerViewController.swift */; };
+		0477D01529478E86009C960B /* ExchangeRateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477D01429478E86009C960B /* ExchangeRateModel.swift */; };
+		0477D01729478F67009C960B /* ExchangeRateAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477D01629478F67009C960B /* ExchangeRateAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		0432C3D529477D56002CA85A /* ExchangeRateCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRateCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0432C3D829477D56002CA85A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0432C3DA29477D56002CA85A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0432C3DC29477D56002CA85A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0432C3DF29477D56002CA85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0432C3E129477D57002CA85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0432C3E429477D57002CA85A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		0432C3F529477D57002CA85A /* ExchangeRateCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExchangeRateCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0432C3F929477D57002CA85A /* ExchangeRateCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateCalUITests.swift; sourceTree = "<group>"; };
 		0432C3FB29477D57002CA85A /* ExchangeRateCalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateCalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0477D01229478882009C960B /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		0477D01429478E86009C960B /* ExchangeRateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateModel.swift; sourceTree = "<group>"; };
+		0477D01629478F67009C960B /* ExchangeRateAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRateAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 			children = (
 				0432C3E629477D57002CA85A /* Info.plist */,
 				0432C3D829477D56002CA85A /* AppDelegate.swift */,
+				0477D01629478F67009C960B /* ExchangeRateAPI.swift */,
+				0477D01429478E86009C960B /* ExchangeRateModel.swift */,
+				0477D01229478882009C960B /* PickerViewController.swift */,
 				0432C3DA29477D56002CA85A /* SceneDelegate.swift */,
-				0432C3DC29477D56002CA85A /* ViewController.swift */,
 				0432C3E129477D57002CA85A /* Assets.xcassets */,
 				0432C3E329477D57002CA85A /* LaunchScreen.storyboard */,
 				0432C3DE29477D56002CA85A /* Main.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0432C3DD29477D56002CA85A /* ViewController.swift in Sources */,
+				0477D01529478E86009C960B /* ExchangeRateModel.swift in Sources */,
 				0432C3D929477D56002CA85A /* AppDelegate.swift in Sources */,
+				0477D01329478882009C960B /* PickerViewController.swift in Sources */,
 				0432C3DB29477D56002CA85A /* SceneDelegate.swift in Sources */,
+				0477D01729478F67009C960B /* ExchangeRateAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
